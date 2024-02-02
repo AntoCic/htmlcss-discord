@@ -32,6 +32,9 @@ img {
 .row-reverse{
   flex-direction: row-reverse;
 }
+.align-center{
+  align-items: center;
+}
 
 .col-100 {
   width: 100%;
@@ -71,6 +74,13 @@ img {
   min-height: 500px;
 }
 
+.bt-st{
+  margin: 5px 0;
+  padding: 10px ;
+  border-radius: 20px;
+  border: 0 ;
+}
+
 /* -- GENERAL STYLE -- */
 /* header */
 .bg-header-aside {
@@ -80,8 +90,9 @@ img {
 .link-nav {
   display: flex;
 }
-.link-nav li {
+.link-nav li a {
   margin: 0 10px;
+  color: white;
 }
 /* aside */
 aside .container {
