@@ -28,6 +28,10 @@ img {
   display: flex;
   flex-wrap: wrap;
 }
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .row-reverse{
   flex-direction: row-reverse;
@@ -43,6 +47,11 @@ img {
 .align-center{
   align-items: center;
 }
+.center-text{
+  text-align: center;
+}
+
+.padding-30-0{padding: 30px 0;}
 
 .gap-10{
  gap: 10px;
@@ -66,17 +75,6 @@ img {
 }
 .col-17 {
   width: 17%;
-}
-
-.rowH-min-250 {
-  min-height: 300px;
-}
-.rowH-min-300 {
-  min-height: 300px;
-}
-
-.rowH-min-500 {
-  min-height: 500px;
 }
 
 .txt-white{
@@ -118,6 +116,23 @@ aside h1{
 main .even {
   background-color: #f6f6f6;
 }
+
+.bk-star{
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.bk-star h4{
+  padding: 20px;
+}
+
+#bt-main-download-mac{
+  background-color: #8EA1E1;
+}
+
 .bk-wave,
 .bk-wave-cl-reverse {
   background-image: url(../img/wave.svg);
@@ -127,6 +142,7 @@ main .even {
 .bk-wave-cl-reverse {
   transform: rotate(180deg);
 }
+
 /* footer */
 footer {
   background-color: #23272a;
