@@ -151,6 +151,29 @@ footer {
   display: flex;
 }
 
+footer h4,
+footer h3{
+  color: #8EA1E1;
+  margin-bottom: 5px;
+}
+footer .bandiera{
+  width: 1.5em;
+}
+footer select {
+  background-color:transparent;
+  color: white;
+  border: 0;
+}
+.change_language{
+  margin-bottom: 5px;
+}
+
+.list-social-ico img{
+  width: 2em;
+}
+.footer-ref-site a{
+  color: white;
+}
 /* -- DEBUG -- */
 .debug .container {
   border: 1px dotted rgba(0, 0, 0, 0.25);
