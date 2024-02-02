@@ -1,0 +1,147 @@
+
+
+/* -- RESET -- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol menu {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* -- LAYOUT -- */
+.container {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-100{
+  width: 100%;
+}
+.col-20{
+  width: 20%;
+}
+.col-60{
+  width: 60%;
+}
+.col-40{
+  width: 40%;
+}
+
+.col-32{
+  width: 32%;
+}
+.col-17{
+  width: 17%;
+}
+
+.justy-c{
+  justify-content: center;
+}
+.justy-b{
+  justify-content: space-between;
+}
+
+.rowH-min-standard{
+  min-height: 200px;
+}
+
+.rowH-min-300{
+  min-height: 300px;
+}
+
+.rowH-min-400{
+  min-height: 400px;
+}
+
+/* -- GENERAL STYLE -- */
+.link-nav{
+  display: flex;
+}
+.link-nav li{
+  margin: 0 10px;  
+}
+.login{
+  text-align: right;
+}
+
+aside .container{
+  max-width: 600px;
+}
+
+.footer-bt{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* -- DEBUG -- */
+.debug .container {
+  border: 1px dotted rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+
+.debug .row {
+  border: 1px dotted rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+
+.debug [class^="col"] {
+  border: 1px dotted black;
+  background-color: #DAA520;
+  padding: 10px;
+  min-height: 10px;
+}
+.debug header {
+  background-color: #ADD8E6;
+}
+.debug aside {
+  background-color: #00008B;
+}
+.debug main .even {
+  background-color: #D3D3D3;
+}
+.debug .aside-col {
+  background-color: #EE82EE;
+}
+.debug .main-col {
+  background-color: #1E90FF ;
+}
+.debug .info-col {
+  background-color: #FFC0CB ;
+}
+.debug .big-col {
+  background-color: #228B22 ;
+}
+.debug footer {
+  background-color: #23272A ;
+}
+.debug .footer-info {
+  background-color: #F08080 ;
+}
+.debug .footer-ref-site {
+  background-color: #20B2AA ;
+}
+.debug footer button {
+  background-color: #F08080 ;
+  padding: 5px;
+}
+.debug .footer-bt {
+  background-color: #ADD8E6 ;
+}
+
