@@ -29,6 +29,10 @@ img {
   flex-wrap: wrap;
 }
 
+.row-reverse{
+  flex-direction: row-reverse;
+}
+
 .col-100 {
   width: 100%;
 }
@@ -79,17 +83,13 @@ img {
 .link-nav li {
   margin: 0 10px;
 }
-.login {
-  text-align: right;
-}
 /* aside */
 aside .container {
   max-width: 600px;
 }
 
 .footer-bt {
-  display: flex;
-  justify-content: space-between;
+  
 }
 /* main */
 main .even {
@@ -107,6 +107,9 @@ main .even {
 /* footer */
 footer {
   background-color: #23272a;
+}
+.list-social-ico{
+  display: flex;
 }
 
 /* -- DEBUG -- */

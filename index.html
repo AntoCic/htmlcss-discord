@@ -17,13 +17,13 @@
             <img src="./img/logo.svg" alt="Logo">
           </a>
           <ul class="link-nav">
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
-            <li><a href="#">link</a></li>
+            <li><a href="#">Scarica</a></li>
+            <li><a href="#">Perché Discod</a></li>
+            <li><a href="#">Nitro</a></li>
+            <li><a href="#">Sicurezza</a></li>
+            <li><a href="#">Assistenza</a></li>
           </ul>
-          <a class="login" href="#">login</a>
+          <button class="bt-st" id="login">Accedi</button>
         </nav>
       </div>
     </header>
@@ -32,10 +32,13 @@
       <div class="container">
         <div class="row rowH-min-300">
           <div class="col-100 aside-col">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iste eius fugit optio possimus ab odit,
-              ipsam alias eos id sequi architecto unde deleniti, esse illo sapiente adipisci? Totam illum repudiandae
-              distinctio ipsam commodi provident accusamus minima iure eaque suscipit vero, minus voluptatibus vel
-              eveniet esse, in laboriosam aperiam </p>
+            <h1>Il tuo posto per parlare</h1>
+            <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica
+              mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo
+              assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+            </p>
+            <button class="bt-st" id="bt-aside-download-mac">Scarica per Mac</button>
+            <button class="bt-st" id="bt-open-online">Apri Discord nel tuo browser</button>
           </div>
         </div>
       </div>
@@ -47,38 +50,63 @@
       <div class="container">
         <div class="row rowH-min-250">
           <div class="col-60 main-col"><img src="./img/item1.svg" alt="screenshot discord luogo invito"></div>
-          <div class="col-40 info-col"></div>
+          <div class="col-40 info-col">
+            <h2>Un luogo a invito con tutto lo spazio necessario per parlare</h2>
+            <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente
+              parlare della tua giornata senza intasare una chat di gruppo.</p>
+          </div>
         </div>
+      </div>
+    </section>
+
+
+    <div class="bk-wave"></div>
+    <section class="even">
+      <div class="container">
+        <div class="row row-reverse rowH-min-250">
+          <div class="col-60 main-col"><img src="./img/item2.svg" alt="screenshot discord aside bar"></div>
+          <div class="col-40 info-col">
+            <h1>Dove trovarsi é facile</h1>
+            <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei li e
+              unirsi istantaneamente senza dover chiamare.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="bk-wave-cl-reverse"></div>
+
+    <section>
+      <div class="container">
+        <div class="row rowH-min-250">
+          <div class="col-60 main-col"><img src="./img/item3.svg" alt="screenshot discord sezione community"></div>
+          <div class="col-40 info-col">
+            <h1>Da pochi a un fandom</h1>
+            <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri
+              personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e moto altro.</p>
+          </div>
+        </div>
+      </div>
       </div>
     </section>
 
     <div class="bk-wave"></div>
     <section class="even">
       <div class="container">
-        <div class="row rowH-min-250">
-          <div class="col-60 main-col"><img src="./img/item2.svg" alt="screenshot discord aside bar"></div>
-        </div>
-        <div class="col-40 info-col"></div>
-      </div>
-      </div>
-    </section>
-    <div class="bk-wave-cl-reverse"></div>
-    
-    <section>
-      <div class="container">
-        <div class="row rowH-min-250">
-          <div class="col-60 main-col"><img src="./img/item3.svg" alt="screenshot discord sezione community"></div>
-        </div>
-        <div class="col-40 info-col"></div>
-      </div>
-      </div>
-    </section>
-    
-    <div class="bk-wave"></div>
-    <section class="even">
-      <div class="container">
         <div class="row rowH-min-500">
+          <div class="col-100 big-col">
+            <h2>Tecnologia affidabile per tenersi in contatto</h2>
+            <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in
+              video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione
+              schermo.</p>
+          </div>
           <div class="col-100 big-col"><img src="./img/item4-big.svg" alt="screenshot discord chat"></div>
+          <div class="col-100 big-col">
+            <div class="bk-star">
+              <h4>Pronto a iniziare la tua avventura?</h4>
+            </div>
+            <button class="bt-st" id="bt-main-download-mac">Scarica per Mac</button>
+
+          </div>
         </div>
       </div>
     </section>
@@ -88,20 +116,77 @@
     <section>
       <div class="container">
         <div class="row rowH-min-300">
-          <div class="col-32 footer-info"></div>
-          <div class="col-17 footer-ref-site"></div>
-          <div class="col-17 footer-ref-site"></div>
-          <div class="col-17 footer-ref-site"></div>
-          <div class="col-17 footer-ref-site"></div>
+          <div class="col-32 footer-info">
+            <h3>Il tuo posto per parlare</h3>
+            <div class="row col-100 change_language">
+              <img src="./img/ita.png" alt="bandiera italia">
+              <select id="language">
+                <option value="it">Italiano</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+
+            <ul class="list-social-ico">
+              <li><a href="#"><img src="./img/ico_social.png" alt="icona social"></a></li>
+              <li><a href="#"><img src="./img/ico_social.png" alt="icona social"></a></li>
+              <li><a href="#"><img src="./img/ico_social.png" alt="icona social"></a></li>
+              <li><a href="#"><img src="./img/ico_social.png" alt="icona social"></a></li>
+            </ul>
+          </div>
+          <div class="col-17 footer-ref-site">
+            <h4>Prodotto</h4>
+            <ul>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
+          <div class="col-17 footer-ref-site">
+            <h4>Compagnia</h4>
+            <ul>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
+          <div class="col-17 footer-ref-site">
+            <h4>Risorse</h4>
+            <ul><a href="#">link</a>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
+          <div class="col-17 footer-ref-site">
+            <h4>Riisorse</h4>
+            <ul>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+              <li><a href="#">link</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
     <section>
       <div class="container">
         <div class="row">
-          <div class="col-100 footer-bt">
-            <button id="logo-footer">logo</button>
-            <button id="bt-footer">Bottone</button>
+          <div class="col-100 row justy-b">
+            <a class="logo-nav" href="#"> <img src="./img/logo.svg" alt="Logo"> </a>
+            <button class="bt-st" id="bt-register">registrati</button>
           </div>
         </div>
       </div>
