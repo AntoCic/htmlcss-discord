@@ -32,8 +32,20 @@ img {
 .row-reverse{
   flex-direction: row-reverse;
 }
+
+.justy-c {
+  justify-content: center;
+}
+.justy-b {
+  justify-content: space-between;
+}
+
 .align-center{
   align-items: center;
+}
+
+.gap-10{
+ gap: 10px;
 }
 
 .col-100 {
@@ -56,13 +68,6 @@ img {
   width: 17%;
 }
 
-.justy-c {
-  justify-content: center;
-}
-.justy-b {
-  justify-content: space-between;
-}
-
 .rowH-min-250 {
   min-height: 300px;
 }
@@ -74,9 +79,12 @@ img {
   min-height: 500px;
 }
 
+.txt-white{
+  color: white;
+}
+
 .bt-st{
-  margin: 5px 0;
-  padding: 10px ;
+  padding: 10px  20px;
   border-radius: 20px;
   border: 0 ;
 }
@@ -98,10 +106,14 @@ img {
 aside .container {
   max-width: 600px;
 }
-
-.footer-bt {
-  
+aside h1{
+  padding-top: 70px;
+  padding-bottom: 10px;
 }
+#bt-open-online{
+  background-color: #23272a;
+}
+
 /* main */
 main .even {
   background-color: #f6f6f6;
